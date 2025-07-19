@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-family: "Alegreya", serif;
+    font-size: 17px;
+    --white:white;
+    --nn:#8e7754;
+    --n:#686868;
+    --s:#969696;
+    --b:#303030;
+}
+
+.header{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.img1{
+    height: 60px;
+    margin-top: 15px ;
+    margin-left: 120px;
+}
+
+.nav .img1 img{
+    width: 180px;
+    height: 50px;
+}
+
+.links{
+    width: 50%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav .links a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    color: var(--white);
+}
+
+.links a:hover{
+    color: var(--nn);
+;
+}
+
+/* ******************************** */
+
+.discreption{
+    height: 340px;
+    width: 700px;
+    /* background-color: aliceblue; */
+    text-align: center;
+    position: absolute;
+    right: 27%;
+    top:33%;
+    color: var(--white);
+    line-height: 1.86em;
+}
+
+.discreption h1{
+    height: 90px;
+    font-size: 76px;
+    font-weight: 400;
+}
+
+.discreption #one{
+    font-size: 22px;
+    height: 40px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.discreption #two{
+    margin-bottom:20px;
+    font-size: 24px;
+    font-weight: 400;
+    height: 80px;
+}
+
+.discreption button{
+    color: var(--white);
+    text-transform: none;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 28px;
+    margin: 0 0 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.bt1{
+    background-color: var(--nn);
+    border: 0;
+}
+
+.bt2{
+    border: 2px solid var(--white);
+    background-color: transparent;
+}
+
+button:hover{
+    color: var(--b);
+    background-color: var(--white);
+}
+
+/* *********************** */
+
+.who{
+    width: 100%;
+    height: 680px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img2 ,.contact1{
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.img2 img{
+    height: auto;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.contact1{
+    text-align: left;
+    color: var(--n);
+    padding-left:50px ;
+    position: relative;
+}
+
+.contact1 h2{
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 32px;
+    color: var(--b);
+    line-height: 1.38em;
+}
+
+.contact1 p{
+    line-height: 1.86em;
+}
+
+.contact1 .list li{
+    padding: 20px;
+    list-style: none;
+
+}
+
+i{
+    border: 1px solid rgba(0, 0, 0, .15);
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    line-height: 44px;
+    font-size: 20px;
+    padding-top: 10px;
+    /* top: 6px; */
+    margin-right: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.footer1{
+    background-color: #403d38;
+    color: var(--s);
+    font-size: 16px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+    font-weight: 400;
+}
+
+.div1{
+    width: 25%;
+    margin:0 50px;
+    
+}
+
+.div1 h4{
+    margin-bottom: 25px;
+    color: var(--white);
+}
+
+.div1 p{
+    line-height: 1.86em;
+    margin-bottom: 20px;
+}
+
+.div1 li{
+    list-style: none;
+    padding-bottom: 5px;
+    margin: 7px;
+}
+
+.d4{
+    background-image: url("../images/contact-details-map.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.d4 a{
+    text-decoration: none;
+    color: var(--n);
+    font-size: 18px;
+    
+}
+
+.div1 hr{
+    margin: 7px;
+    background-color: #68686847;
+    border: none;
+    height: 1px;
+}
+
+.footer2{
+    background-color: #2f2e2a;
+    color: var(--s);
+    font-size: 16px;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.contact2{
+    position: absolute;
+    top: 100px;
+    left: 38%;
+}
+
+.contact2 img{
+    padding-bottom: 20px;
+}
